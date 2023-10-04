@@ -1,0 +1,29 @@
+#menus {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+  size: 150px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#menus > div {
+  padding: 10px;
+  cursor: pointer;
+}
+#menus > div > label {
+  cursor: pointer;
+}
+#menus > div:hover {
+  scale: 1px;
+  background-color: #8b98a9;
+  transition: 0.5s;
+}
+.active-option {
+  scale: 1.2px;
+  background-color: #8b98a9;
+  transition: 0.5s;
+}
